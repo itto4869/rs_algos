@@ -1,0 +1,3 @@
+[workspace]
+members = [ "algebra","common", "data_structure", "linear_algebra", "number_theory", "sort"]
+resolver = "3"

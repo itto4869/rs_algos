@@ -1,0 +1,45 @@
+# --- Rust / Cargo ---
+target/
+debug/
+# ※ ライブラリなら Cargo.lock を無視することもある
+# Cargo.lock
+
+# rustfmt のバックアップ
+**/*.rs.bk
+
+# コンパイル生成物（環境によってはできることがある）
+*.rlib
+*.rmeta
+*.dSYM/
+*.pdb
+
+# --- テスト・カバレッジ / プロファイル ---
+coverage/
+*.profraw
+*.profdata
+lcov.info
+
+# --- Wasm (wasm-pack 等) ---
+/pkg/
+/wasm-pack.log
+*.wasm
+
+# --- dotenv ---
+.env
+.env.*
+
+# --- エディタ / IDE ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- OSごみ ---
+.DS_Store
+Thumbs.db
+
+# --- 一時ファイル ---
+*.log
+*.swp
+*.swo
+*~
+
